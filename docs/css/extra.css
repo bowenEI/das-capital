@@ -109,11 +109,3 @@ body {
 [dir=ltr] .md-typeset blockquote {
     border-left-color: var(--md-typeset-a-color);
 }
-
-/* span.arithmatex {
-    font-size: 1em;
-} */
-
-/* * {
-    font-size: 1.05em;
-} */
