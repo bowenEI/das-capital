@@ -20,3 +20,6 @@ test.sh
 docs/overrides/partials/*
 !docs/overrides/partials/content.html
 !docs/overrides/partials/footer.html
+
+# Python script
+*.py
