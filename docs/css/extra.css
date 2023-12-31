@@ -115,6 +115,11 @@ body {
     border-left-color: var(--md-typeset-a-color);
 }
 
+/* MathJax */
 mjx-container {
+    font-size: 100%;
+}
+
+p mjx-container {
     font-size: 100% !important;
 }
