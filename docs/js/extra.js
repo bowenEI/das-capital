@@ -26,3 +26,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     })
 });
+
+window.onload = function () {
+    var el_article = document.querySelector(".md-content__inner.md-typeset");
+    console.log(el_article);
+    var el_children = el_article.children;
+    console.log(el_children);
+    el_children = Array.from(el_children).slice(1, el_children.length - 2);
+    console.log(el_children);
+}
